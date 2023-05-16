@@ -9,5 +9,11 @@ Count points inside polygon     | aggregate(layer:='point_layer_name', aggregate
 
 ### VBSCRIPT - GIS ###
 Usage                           | Code                                                                                                                          | Remarks
-Split Text(Delimited)           | `Function FindLabel ( [numberdistributionduct] )if ([numberdistributionduct] = "0") then Findlabel=("")   else    Findlabel=( [numberdistributionduct] & "D") end if End Function'   |
-
+-------------                   | -------------                                                                                                                 | -------------
+Split Text(Delimited)           | `Function FindLabel ( [numberdistributionduct] )
+if ([numberdistributionduct] = "0") then
+Findlabel=("")
+else
+Findlabel=( [numberdistributionduct] & "D")
+end if
+End Function'                                                                                                                                                   |
